@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/opt_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/start" />
+        <item
+            android:id="@+id/opt_fridge"
+            android:icon="@drawable/food_icon"
+            android:title="@string/zajrzyj" />
+        <item
+            android:id="@+id/opt_add_manually"
+            android:icon="@drawable/plus_icon"
+            android:title="@string/dodaj_recznie" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/profil">
+            <menu>
+                <item
+                    android:id="@+id/opt_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="@string/zaloguj" />
+                <item
+                    android:id="@+id/opt_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="@string/profil" />
+                <item
+                    android:id="@+id/opt_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/wyloguj" />
+
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="@string/spolecznosc">
+        <menu>
+            <item
+                android:id="@+id/opt_share"
+                android:icon="@drawable/share_icon"
+                android:title="@string/udostepnij" />
+            <item
+                android:id="@+id/opt_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="@string/ocen_nas" />
+        </menu>
+    </item>
+</menu>
